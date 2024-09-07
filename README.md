@@ -23,12 +23,8 @@ This application allows users to interact with the transcriptions of a YouTube c
    - When queried, similar embeddings are retrieved based on cosine similarity or another distance metric.
 
 3. **Data Storage**:
-   - Embeddings and related metadata (e.g., video ID, timestamp) are stored in **Parquet format** for later use.
+   - Embeddings are stored in **Parquet format** for later use.
    - This ensures that the data can be reloaded without recomputing the embeddings each time.
-
-4. **Chat Interface**:
-   - A simple chat interface allows users to ask questions about the YouTube channel's content.
-   - The system retrieves relevant pieces of the transcriptions and generates a response.
 
 ## Educational Disclaimer
 
