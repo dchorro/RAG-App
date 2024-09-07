@@ -1,0 +1,9 @@
+# Ignore all
+*
+
+!.gitignore
+!cli_interface.py
+!vector_db_manager.py
+!llm_interaction.py
+!talk_with_db.py
+!download_channel.py
